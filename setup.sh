@@ -9,7 +9,7 @@ sudo apt-get update
 
 #安装python3.4
 
-sudo apt-get install -y python3.5.3 python3.5-dev 
+sudo apt-get install -y python3.5 python3.5-dev 
 
 #安装pip，确保本脚本和get-pip.py 文件在一个文件夹
 BASE_DIR="$( cd "$( dirname "$0"  )" && pwd  )"
@@ -27,6 +27,6 @@ sudo apt-get install -y redis-server
 sudo chmod +x ${BASE_DIR}/run.sh && sudo chmod +x ${BASE_DIR}/down.sh && chmod +x ${BASE_DIR}/cron.sh 
 sudo sh ${BASE_DIR}/run.sh && sh ${BASE_DIR}/cron.sh
 
-#sudo python3.4 ${BASE_DIR}/crysadm/crysadm/crydadm_hlper.py &
-#sudo python3.4 ${BASE_DIR}/crysadm/crysadm/crydadm.py &
+#sudo python3.5 ${BASE_DIR}/crysadm/crysadm/crydadm_hlper.py &
+#sudo python3.5 ${BASE_DIR}/crysadm/crysadm/crydadm.py &
 
