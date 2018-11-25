@@ -2,5 +2,5 @@
 echo 'Stop crysadm on'  $(date) >> /tmp/crysadm.txt
 
 sudo pkill redis-server
-sudo pkill python3.4
+sudo pkill python3.5.3
 
