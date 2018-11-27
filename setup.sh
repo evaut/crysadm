@@ -14,7 +14,7 @@ sudo apt-get install -y python3.5 python3.5-dev
 #安装pip，确保本脚本和get-pip.py 文件在一个文件夹
 BASE_DIR="$( cd "$( dirname "$0"  )" && pwd  )"
 sudo chmod +x ${BASE_DIR}/get-pip.py
-sudo python3 ${BASE_DIR}/get-pip.py
+sudo python3.5 ${BASE_DIR}/get-pip.py
 
 sudo pip3 install redis && sudo pip3 install requests && sudo pip3 install flask
 
